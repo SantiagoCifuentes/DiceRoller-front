@@ -14,9 +14,9 @@ import { fetchDado } from '../actions';
 
     return  <Fragment>
     <form onSubmit={onSubmit}>
-    <h1>Lanza el dado</h1>
-    <p>Dale click al botón para lanzar un dado</p>
-    <button type="submit" onClick={fetchDado}>Lanzar dado</button>
+    <h1 className="text-primary" style={{marginLeft: "40px"}}>Lanza el dado</h1>
+    <p style={{marginLeft: "30px"}} >Dale click al botón para lanzar un dado</p>
+    <button className="btn btn-primary " style={{marginLeft: "100px"}} type="submit" onClick={fetchDado}>Lanzar dado</button>
     </form>
   </Fragment>
   

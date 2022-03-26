@@ -34,10 +34,11 @@ const Result = (props) => {
             break;
     }
 
-  return <div>
-      <img src={imagen} alt=""/>
-     {props.result && 'Resultado: '+ props.result} 
+  return <div style={{marginLeft: "40px"}}>
+      <img style={{marginLeft: "90px",marginTop:"12px"}} src={imagen} alt=""/>
+      <p className="text-success" style={{marginLeft: "75px",marginTop:"12px"}}>{props.result && 'Número: '+ props.result}  </p>
   </div>
+  
 }
 
 
