@@ -13,10 +13,10 @@ import { fetchDado } from '../actions';
 
 
     return  <Fragment>
-    <form onSubmit={onSubmit}>
-    <h1 className="text-primary" style={{marginLeft: "40px"}}>Lanza el dado</h1>
-    <p style={{marginLeft: "30px"}} >Dale click al botón para lanzar un dado</p>
-    <button className="btn btn-primary " style={{marginLeft: "100px"}} type="submit" onClick={fetchDado}>Lanzar dado</button>
+    <form className='d-flex flex-column bd-highlight mb-3' onSubmit={onSubmit}>
+    <h1 className="text-primary text-center" >Lanza el dado</h1>
+    <p className="text-primary text-center" >Dale click al botón para lanzar un dado</p>
+    <button className="btn btn-primary mx-auto "  type="submit" onClick={fetchDado}>Lanzar dado</button>
     </form>
   </Fragment>
   

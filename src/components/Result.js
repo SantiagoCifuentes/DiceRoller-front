@@ -34,9 +34,9 @@ const Result = (props) => {
             break;
     }
 
-  return <div style={{marginLeft: "40px"}}>
-      <img style={{marginLeft: "90px",marginTop:"12px"}} src={imagen} alt=""/>
-      <p className="text-success" style={{marginLeft: "75px",marginTop:"12px"}}>{props.result && 'Número: '+ props.result}  </p>
+  return <div className="d-flex flex-column bd-highlight mb-3">
+      <img className='img-thumbnail mx-auto' src={imagen} alt=""/>
+      <p class="text-success"className='thumbnail mx-auto' >{props.result && 'Número: '+ props.result}  </p>
   </div>
   
 }
