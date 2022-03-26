@@ -1,4 +1,4 @@
-**BACK = https://github.com/SantiagoCifuentes/DiceRoller-back
+**BACK** = https://github.com/SantiagoCifuentes/DiceRoller-back
 
 Al darle click en lanzar dado se generará un dado aleatorio
 
